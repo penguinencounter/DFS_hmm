@@ -39,7 +39,7 @@ public class Stack<T> {
     @Override
     public String toString() {
         StringBuilder b = new StringBuilder();
-        b.append("Stack of ").append(size()).append(" items, top-down:");
+        b.append("Stack of ").append(size()).append(" items, bottom-up:");
         if (size() == 0) {
             b.append("\n  (empty)");
             return b.toString();
